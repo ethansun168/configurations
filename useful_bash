@@ -1,0 +1,50 @@
+sudo ntpdate ntp.ubuntu.com
+diff -y -B file1 file2 | less
+
+valgrind:
+module load gcc/11.3.0
+
+perf:
+perf record -F 1000 --call-graph dwarf -e cycles:u ./program_debug < [input]
+perf report
+
+ln -s [PATH] [NAME]
+rm [NAME]
+
+git push -d <remote_name> <branchname>
+git branch -d <branchname>
+
+
+rsync -rv . ethansun@login.engin.umich.edu:
+
+Python 
+python3 -m venv env
+source env/bin/activate
+
+pip install -r requirements.txt
+pip install -e .
+
+deactivate
+
+Generate ssh
+ssh-keygen -t ed25519 -C "ethansun@umich.edu"
+
+
+wget "starter files URL"
+tar -xvzf starter-files.tar.gz
+mv starter-files/* .
+rm -rf starter-files starter-files.tar.gz
+
+*Rename .starter files*
+*Add to solution*
+
+Address Sanitizer (add to Makefile compiler flags)
+-fsanitize=address -fsanitize=undefined -D_GLIBCXX_DEBUG
+
+Version Control:
+git init
+git commit -am "Initial commit"
+*Create remote repository*
+git remote add origin "SSH thing"
+git branch -M main
+git push -u origin main
