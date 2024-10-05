@@ -1,0 +1,7 @@
+<C-Shift-e> focus file explorer
+	`a` while focus creates a file
+<C-Alt-arrow> while focus text editor moves to a new pane
+<C+Num> focuses pane num
+<C+`> focuses terminal
+	<C+`> again to unfocus terminal
+
