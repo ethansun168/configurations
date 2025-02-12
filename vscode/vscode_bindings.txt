@@ -3,4 +3,5 @@
 <C+Num> focuses pane num
 <C+`> focuses terminal
 	<C+`> again to unfocus terminal
-
+<C+j> Close terminal
+<C+Shift+D> Select next occurence of highlighted

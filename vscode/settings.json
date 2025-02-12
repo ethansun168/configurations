@@ -23,7 +23,7 @@
         "<C-t>": false,
         "<C-b>": false,
         "<C-f>": false,
-        // "<C-d>": false
+        "<C-j>": false,
     },
     "vim.visualModeKeyBindingsNonRecursive": [
         {
