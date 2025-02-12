@@ -1,0 +1,46 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "remote.SSH.configFile": "~/.ssh/config",
+    "remote.SSH.remotePlatform": {
+        "caen": "linux",
+        "localhost": "linux",
+        "login.engin.umich.edu": "linux",
+        "eecs388p4": "linux",
+        "eecs583a.eecs.umich.edu": "linux",
+        "192.168.134.128": "linux"
+    },
+    "remote.SSH.showLoginTerminal": true,
+    "files.autoSave": "afterDelay",
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.lineNumbers": "relative",
+    "vim.useSystemClipboard": true,
+    "vim.commandLineModeKeyBindings": [
+
+    ],
+    "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-t>": false,
+        "<C-b>": false,
+        "<C-f>": false,
+        // "<C-d>": false
+    },
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before" : ["p"],
+            "commands": ["editor.action.clipboardPasteAction",
+                {
+                    "command": "vim.remap",
+                    "args": {
+                        "after": ["Esc"]
+                    }
+                }
+            ]
+        }
+    ],
+    "remote.autoForwardPortsSource": "hybrid",
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "rgba(247, 80, 80, 0.8)",
+    "vim.highlightedyank.duration": 75,
+    "vim.foldfix": true
+}
