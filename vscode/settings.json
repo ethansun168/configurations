@@ -1,5 +1,18 @@
 {
-    "workbench.colorTheme": "Default Dark Modern",
+    // Editor
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.labelFormat": "short",
+    "breadcrumbs.enabled": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.wordWrap": "on",
+    "editor.accessibilitySupport": "off",
+    "editor.lineNumbers": "relative",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    
+    // Remote SSH
     "remote.SSH.configFile": "~/.ssh/config",
     "remote.SSH.remotePlatform": {
         "caen": "linux",
@@ -10,10 +23,11 @@
         "192.168.134.128": "linux"
     },
     "remote.SSH.showLoginTerminal": true,
-    "files.autoSave": "afterDelay",
-    "editor.accessibilitySupport": "off",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "editor.lineNumbers": "relative",
+    "remote.SSH.useExecServer": false,
+    "remote.SSH.lockfilesInTmp": true,
+    "remote.autoForwardPortsSource": "hybrid",
+
+    // Vim
     "vim.useSystemClipboard": true,
     "vim.commandLineModeKeyBindings": [
 
@@ -38,9 +52,32 @@
             ]
         }
     ],
-    "remote.autoForwardPortsSource": "hybrid",
     "vim.highlightedyank.enable": true,
     "vim.highlightedyank.color": "rgba(247, 80, 80, 0.8)",
     "vim.highlightedyank.duration": 75,
-    "vim.foldfix": true
+    // "vim.foldfix": true
+
+    // Catppuccin
+    "workbench.colorTheme": "Catppuccin Mocha",
+    // Very dark
+    // "catppuccin.colorOverrides": {
+    //     "mocha": {
+    //         "base": "#000000",
+    //         "mantle": "#010101",
+    //         "crust": "#020202",
+    //     },
+    // },
+    "catppuccin.customUIColors": {
+        "mocha": {
+            "statusBar.foreground": "accent",
+        },
+    },
+    "catppuccin.italicKeywords": false,
+    "catppuccin.boldKeywords": false,
+
+    // Custom CSS
+    "vscode_custom_css.imports": [
+        "file:///C:/stuff/vscode/custom-css.css",
+        "file:///C:/stuff/vscode/custom-js.js",
+    ],
 }

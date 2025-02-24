@@ -86,7 +86,13 @@ zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions alias-finder web-search dirhistory zsh-interactive-cd)
+plugins=(
+	git
+	zsh-syntax-highlighting
+	zsh-autosuggestions
+	alias-finder
+	zsh-interactive-cd
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -118,7 +124,5 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 set -o vi

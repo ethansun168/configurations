@@ -8,5 +8,20 @@
         "key": "ctrl+shift+d",
         "command": "editor.action.addSelectionToNextFindMatch",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+d",
+        "command": "editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.closeQuickOpen",
+        "when": "inQuickOpen"
     }
 ]

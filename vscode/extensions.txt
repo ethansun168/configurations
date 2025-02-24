@@ -1,0 +1,5 @@
+catppuccin
+custom css and jss loader
+remote ssh
+vim
+material icon theme
