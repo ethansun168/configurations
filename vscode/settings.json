@@ -29,9 +29,16 @@
 
     // Vim
     "vim.useSystemClipboard": true,
-    "vim.commandLineModeKeyBindings": [
-
-    ],
+	"vim.normalModeKeyBindings": [
+			{
+					"before": ["<C-d>"],
+					"after": ["<C-d>", "z", "z"]
+			},
+			{
+					"before": ["<C-u>"],
+					"after": ["<C-u>", "z", "z"]
+			}
+	],
     "vim.handleKeys": {
         "<C-p>": false,
         "<C-t>": false,
